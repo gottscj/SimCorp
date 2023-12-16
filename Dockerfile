@@ -8,6 +8,7 @@ RUN dotnet publish /src/DanskeBank.Api.csproj -c Release -o /publish /p:UseAppHo
 
 EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
+ENV ASPNETCORE_ENVIRONMENT=Production
 WORKDIR /app
 COPY --from=build-env /publish .
-ENTRYPOINT ["dotnet", "DanskeBank.Api.dll", "--launch-profile", "Docker"]
+ENTRYPOINT ["dotnet", "DanskeBank.Api.dll"]
