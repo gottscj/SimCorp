@@ -9,11 +9,15 @@ Things to note:
 * A word is defined as a set of alpha numeric characters surrounded by white-space
 * the result is sorted by number of occurrences in descending order
 
-# Docker installation
+# Usage Docker
 ```console
 docker build --tag danske/wordcounter . 
 ```
 ```console
 docker run -p 8080:8080 danske/wordcounter
+```
+go to:
+```
+http://localhost:8080/swagger/index.html
 ```
 
