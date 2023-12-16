@@ -1,1 +1,2 @@
-# danske
+# Word counter
+
