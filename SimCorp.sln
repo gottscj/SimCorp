@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimCorp.Api", "SimCorp.Api\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimCorp.Api.Tests", "SimCorp.Api.Tests\SimCorp.Api.Tests.csproj", "{EB1C2D4B-2F8F-479E-8273-881686AE53D6}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SimCorp.Functional", "SimCorp.Functional\SimCorp.Functional.fsproj", "{191FB3DA-00F6-44FD-8E8D-30358F541BD8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,9 +22,5 @@ Global
 		{EB1C2D4B-2F8F-479E-8273-881686AE53D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB1C2D4B-2F8F-479E-8273-881686AE53D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB1C2D4B-2F8F-479E-8273-881686AE53D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{191FB3DA-00F6-44FD-8E8D-30358F541BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{191FB3DA-00F6-44FD-8E8D-30358F541BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{191FB3DA-00F6-44FD-8E8D-30358F541BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{191FB3DA-00F6-44FD-8E8D-30358F541BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
