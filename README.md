@@ -11,10 +11,10 @@ Things to note:
 
 # Usage Docker
 ```console
-docker build --tag danske/wordcounter . 
+docker build --tag wordcounter . 
 ```
 ```console
-docker run -p 8080:8080 danske/wordcounter
+docker run -p 8080:8080 wordcounter
 ```
 go to:
 ```
