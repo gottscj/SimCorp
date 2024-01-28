@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 
-namespace DanskeBank.Api.Exceptions;
+namespace SimCorp.Api.Exceptions;
 
 public class GlobalExceptionHandler : IExceptionHandler
 {

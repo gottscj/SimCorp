@@ -1,6 +1,6 @@
-using DanskeBank.Api.WordCounter;
+using SimCorp.Api.WordCounter;
 
-namespace DanskeBank.Api.Tests.WordCounterTests;
+namespace SimCorp.Api.Tests.WordCounterTests;
 
 public class WordCounterServiceTests
 {

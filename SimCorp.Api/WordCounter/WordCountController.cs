@@ -1,10 +1,12 @@
-﻿using DanskeBank.Api.Exceptions;
+﻿using Asp.Versioning;
 using Microsoft.AspNetCore.Mvc;
+using SimCorp.Api.Exceptions;
 
-namespace DanskeBank.Api.WordCounter;
+namespace SimCorp.Api.WordCounter;
 
+[ApiVersion("1.0")]
 [ApiController]
-[Route("[controller]")]
+[Route("api/v{version:apiVersion}/[controller]")]
 public class WordCountController : ControllerBase
 {
     private readonly IWordCounterService _wordCounterService;

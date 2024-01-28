@@ -1,4 +1,4 @@
-﻿namespace DanskeBank.Api.WordCounter;
+﻿namespace SimCorp.Api.WordCounter;
 
 public record WordCount(string Word, long NumberOfOccurrences);
 

@@ -1,4 +1,4 @@
-﻿namespace DanskeBank.Api.Exceptions;
+﻿namespace SimCorp.Api.Exceptions;
 
 public class BadRequestException : Exception
 {

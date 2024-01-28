@@ -1,9 +1,9 @@
-﻿using DanskeBank.Api.Exceptions;
-using DanskeBank.Api.WordCounter;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using NSubstitute;
+using SimCorp.Api.Exceptions;
+using SimCorp.Api.WordCounter;
 
-namespace DanskeBank.Api.Tests.WordCounterTests;
+namespace SimCorp.Api.Tests.WordCounterTests;
 
 public class WordCountControllerTests
 {
