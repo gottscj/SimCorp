@@ -1,4 +1,4 @@
-[![Build](https://github.com/gottscj/danske/actions/workflows/build.yml/badge.svg)](https://github.com/gottscj/danske/actions/workflows/build.yml)
+[![Build](https://github.com/gottscj/simcorp/actions/workflows/build.yml/badge.svg)](https://github.com/gottscj/danske/actions/workflows/build.yml)
 # Word counter
 
 Word counter is a single endpoint “POST /api/wordcount”, it allows a user to upload a text file, the API performs a word count operation and returns the result.
